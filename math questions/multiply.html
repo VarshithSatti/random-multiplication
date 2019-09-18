@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>
+        random multiplication questions
+    </title>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body onload="generateMultiplicationQuestion()">
+    <div id="questions">
+        <div id="qq"></div>
+        <input type="number"  id="ans"/>
+        <br />
+        <Button type="button" onclick="check()">sumbit</Button>
+    </div>
+    <p style="color: red; font-size: 20px" id="wrong"></p>
+    <p style="color: green; font-size: 20px" id="correct"></p>
+    <button type="button" onclick="generateMultiplicationQuestion()">
+        generate a multiplication question
+    </button>
+</body>
+
+</html>
