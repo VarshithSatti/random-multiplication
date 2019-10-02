@@ -12,8 +12,8 @@ function generateMultiplicationQuestion(changeToTens) {
         n = 99;
         tensgen = true;
     }
-    num1 = Math.floor(Math.random() * Math.floor(n));
-    num2 = Math.floor(Math.random() * Math.floor(n1));
+    num1 = Math.floor(Math.random() * Math.floor(n)) + "." + Math.floor(Math.random() * Math.floor(99));;
+    num2 = Math.floor(Math.random() * Math.floor(n)) + "." + Math.floor(Math.random() * Math.floor(99));;
     document.getElementById("qq").innerHTML += num1 + " x " + num2 + " = " + " ";
 }
 
