@@ -25,8 +25,7 @@ function check() {
         gotcorrect = true;
         document.getElementById("wrong").innerHTML = "";
         document.getElementById("correct").innerHTML = "correct!!";
-        if(tensgen == true)
-        {
+        if (tensgen == true) {
             generateadditionQuestion("tens")
             return;
         }
@@ -48,8 +47,7 @@ function check() {
 function clear() {
     document.getElementById("qq").innerHTML = "";
     document.getElementById("wrong").innerHTML = "";
-    if(gotcorrect == true)
-    {
+    if (gotcorrect == true) {
         return;
     }
     document.getElementById("correct").innerHTML = "";
