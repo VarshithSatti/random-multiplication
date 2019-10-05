@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>
+        random decimal addition questions
+    </title>
+    <script src="scripts/add-script.js"></script>
+    <link rel="stylesheet" href="styles/global-style.css" />
+</head>
+
+<body onload="generateadditionQuestion()">
+    <div id="Banner">
+        <table width="100%">
+            <tr>
+                <td width="50%">
+                    random decimal addition questions
+                </td>
+                <td width="50%">
+                    made my: varshith reddy satti
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="body">
+        <div id="questions">
+            <div id="qq"></div>
+            <input type="number" id="ans" />
+            <br />
+            <Button type="button" onclick="check()">sumbit</Button>
+        </div>
+        <p style="color: red; font-size: 20px" id="wrong"></p>
+        <p style="color: green; font-size: 20px" id="correct"></p>
+        <button type="button" onclick="generateadditionQuestion()">
+            generate a addition question
+        </button>
+        <br />
+        <p> </p>
+        <button type="button" onclick="generateadditionQuestion('tens')">
+            lets do tens place
+        </button>
+        <br />
+        <br />
+        <a href="home.html">home</a>
+        <br />
+        <a href="multiply.html">let's do some addition problems</a>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+
+</html>
