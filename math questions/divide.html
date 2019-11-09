@@ -2,18 +2,18 @@
 
 <head>
     <title>
-        random multiplication questions
+        random division question
     </title>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/divideScript.js"></script>
     <link rel="stylesheet" href="styles/global-style.css" />
 </head>
 
-<body onload="generateMultiplicationQuestion()">
+<body onload="generateDivisonQuestion()">
     <div id="Banner">
         <table width="100%">
             <tr>
                 <td width="50%">
-                    random multiplying questions
+                    random decimal addition questions
                 </td>
                 <td width="50%">
                     made my: varshith reddy satti
@@ -23,28 +23,32 @@
     </div>
     <div id="body">
         <div id="questions">
+            <p style="color: green;"><strong> you should not add the redmainder </strong></p>
             <div id="qq"></div>
             <input type="number" id="ans" />
             <br />
-            <Button type="button" onclick="check()">sumbit</Button>
+            <Button type="button" onclick="check()">sumbit</Button> 
         </div>
         <p style="color: red; font-size: 20px" id="wrong"></p>
         <p style="color: green; font-size: 20px" id="correct"></p>
-        <button type="button" onclick="generateMultiplicationQuestion()">
-            generate a multiplication question
+        <button type="button" onclick="generateDivisonQuestion()">
+            generate a division question
         </button>
         <br />
         <p> </p>
-        <button type="button" onclick="generateMultiplicationQuestion('tens')">
-            lets do tens place multiplication
+        <button type="button" onclick="generateDivisonQuestion('tens')">
+            lets do tens place
         </button>
+        <br/>
+        this is how many facts i know: <input type="number" id="LLI"/>
+        <button type="button" onclick="ChangeLimit()">sumbit</button>
         <br />
         <br />
         <a href="home.html">home</a>
         <br />
-        <a href="multiply-decimal.html">let's do some decimal multiplication problems</a>
+        <a href="multiply.html">let's do some addition problems</a>
         <br/>
-        <a href="divide.html">let's do some divison</a>
+        <a href="add.html">let's do some addition</a>
     </div>
     <div id="footer">
 
