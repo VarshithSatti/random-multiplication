@@ -44,8 +44,13 @@ function check() {
     }
 }
 
+setTimeout(clearA, 5000);
+
 function clear() {
     document.getElementById("qq").innerHTML = "";
+}
+
+function clearA() {
     document.getElementById("correct").innerHTML = "";
     document.getElementById("wrong").innerHTML = "";
 }
