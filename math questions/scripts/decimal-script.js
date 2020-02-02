@@ -44,7 +44,7 @@ function check() {
     }
 }
 
-setTimeout(clearA, 5000);
+setTimeout(function(){ clearA }, 5000);
 
 function clear() {
     document.getElementById("qq").innerHTML = "";
